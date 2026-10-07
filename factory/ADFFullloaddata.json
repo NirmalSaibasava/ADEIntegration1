@@ -1,0 +1,15 @@
+{
+	"name": "ADFFullloaddata",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "malaysiawest",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "827485ed-c828-4e7a-a98b-5ca6d2e0719a",
+		"tenantId": "4c49cc3b-7d9d-464e-8fc8-a10f91d8117a"
+	}
+}
