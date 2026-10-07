@@ -1,0 +1,17 @@
+{
+	"name": "LS_Restservice_Source",
+	"properties": {
+		"parameters": {
+			"BaseUrl": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "RestService",
+		"typeProperties": {
+			"url": "@{linkedService().BaseUrl}",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
